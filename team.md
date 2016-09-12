@@ -1,6 +1,6 @@
 ---
 layout: team
-title: Team | Vis Design Lab
+title: Team | Human-Centered Computing
 weight: 2
 tag: team
 permalink: /team/

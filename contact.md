@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact | Vis Design Lab
+title: Contact | Human-Centered Computing
 permalink: /contact/
 ---
 
@@ -8,13 +8,13 @@ We are happy to receive your feedback!
 
 ### Email
 
-[contact@caleydo.org ](mailto:contact@caleydo.org)
+[hcc@cs.utah.edu ](mailto:hcc@cs.utah.edu)
 
 ### Street Address
 
-Visualization Design Lab
-Scientific Computing and Imaging Institute
-http://vdl.sci.utah.edu/
+Human-Centered Computing
+School Of Computing, University of Utah
+http://hcc.cs.utah.edu/
 72 S Central Campus Drive
 Salt Lake City, UT 84112
 USA

@@ -1,6 +1,6 @@
 ---
 layout: thesis
-title: Thesis | Vis Design Lab
+title: Thesis | Human-Centered Computing
 tag: thesis
 permalink: /thesis/
 ---

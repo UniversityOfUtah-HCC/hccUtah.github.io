@@ -1,6 +1,6 @@
 ---
 layout: funding
-title: Funding | Vis Design Lab
+title: Funding | Human-Centered Computing
 tag: funding
 permalink: /funding/
 ---

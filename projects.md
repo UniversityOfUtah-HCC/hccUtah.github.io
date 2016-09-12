@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: Projects | Vis Design Lab
+title: Projects | Human-Centered Computing
 weight: 1
 permalink: /projects/
 ---

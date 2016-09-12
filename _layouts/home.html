@@ -44,18 +44,34 @@
   <h1>About</h1>
 
 
-      <p>We are a team of visualization researchers at the University of Utah. Our interests include the process of designing and developing visualizations, visualization for biology, visualization frameworks,  and, more generally, visualization of big, heterogeneous, and complex datasets. </p>
-      <p>VDL is part of the <a href="http://www.sci.utah.edu/">Scientific Computing and Imaging Institute</a> and the <a href="http://www.cs.utah.edu/">School of Computing</a>. </p>
+      <p>Computing has permeated the fabric of personal and professional life around the world. Human-Centered Computing is about understanding how people experience computing, creating new technology that empowers people in new ways, and exploring the impacts of computing on people’s lives.  </p>
+      <p>HCC is part of the <a href="http://www.cs.utah.edu/">School of Computing</a> at the <a href="http://utah.edu">University of Utah</a>. </p>
+      <br/>
 
+  <h1>Projects</h1>
+  
+  <ul class="post-list">
+    {% for project in site.projects %}
+      <li class="post-list-item">
+		   <!--<p style="text-align:right;">{{ post.date | date: "%-d %b %Y" }}</p>-->
+		   <div class="right-text">{{ post.date | date: "%-d %b %Y" }}</div>
+        <div class="post-list-title">
+          {{ project.title }}
+        </div>
+        <div class="post-list-excerpt">
+		  {{ project.content | truncatewords: 60 }}
+        </div>
+  		<div><a class="post-list-link" href="{{ site.baseurl }}{{ project.url }}">More...</a></div>         
+      </li>
+    {% endfor %}
+  </ul>
 
-
-
+<!--
   <h1>News <span class="left-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
 
   <ul class="post-list">
     {% for post in site.posts limit:4 %}
       <li class="post-list-item">
-		   <!--<p style="text-align:right;">{{ post.date | date: "%-d %b %Y" }}</p>-->
 		   <div class="right-text">{{ post.date | date: "%-d %b %Y" }}</div>
         <div class="post-list-title">
           {{ post.title }}
@@ -67,12 +83,13 @@
       </li>
     {% endfor %}
   </ul>
-  <!-- <p style="font-family:$condensed-font-family;"><b><a href="news">See All News</a></b></p> -->
   <div class="all-news-link"><a href="news">See All News</a></div>
+-->
   
 
   </article>
-
+  
+<!--
   <article class="home-content-aside">
 	  
 	  <h1>Recent Papers</h1>
@@ -85,6 +102,7 @@
               {% endif %}
 	          {% endfor %}
 	      </ul>
+		-->
 	  	  
 
 
@@ -108,18 +126,7 @@
    </ul>
 -->
 
-    <h1>Funding</h1>
-    <ul class="funding-icon-list">
-        {% assign sorted_grants = (site.funding | sort: 'agency' %}
-      {% for grant in sorted_grants %}
-      {% if grant.active != empty %}
-      {% if agency != grant.agency %}
-      <li><a href="{{ site.baseurl }}/funding">{{ grant.agency }}</a></li>
-      {% endif %}
-      {% endif %}
-      {% assign agency = grant.agency %}
-      {% endfor %}
-    </ul>
+
   
 
   </article>

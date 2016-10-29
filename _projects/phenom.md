@@ -1,6 +1,6 @@
 ---
 layout: project
-title: User-Centric Personal Data
+title: A Service for User-Centric Personal Data
 name: Phenom
 key: phenom
 permalink: /projects/phenom/
@@ -8,38 +8,23 @@ status: prototype
 standfirst: Personal Data Should be User-Centric, Not Company-Centric
 badge: New
 teaser: 
-    lowres: 2014_vast_contour.png
-#     highres: StratomeX_highRes.png
+    
 
 publications:
-- 2014_vast_contour
+- 2016_epistenet
 
 videos:
 
 team:
  - wiese
-
-collaborators:
- - wassermann 
  
 github:
- - 
-  url: https://github.com/Caleydo/org.caleydo.view.contour
-  name: ConTour View
- - 
-  url: https://github.com/Caleydo/caleydo
-  name: Caleydo Core
+ 
  
 ---
 
-In drug discovery, the analysis of multiple heterogeneous datasets is an integral part to evaluate effective yet safe compounds. ConTour is a visual analysis technique that allows analysts to effectively explore complex relationships between datasets. The figure below gives an overview of an exemplary setup of datasets that can be analyzed with ConTour.
+Personal data is everywhere. People’s increasing use of internet services along with the meteoric adoption of smartphones produces an amazing amount of digital information about individuals. Today, developers can access personal data on social interactions (e.g. email, SMS, Skype, Facebook), planning and coordination (e.g. calendars, TripIt, Basecamp, online to-do lists), entertainment (e.g. YouTube, iTunes, Netflix), and commerce (e.g. banking, Amazon, Zappos, eBay), generating a rich profile that provides insights about individuals. 
 
-<img src="{{site.baseurl}}/assets/images/projects/contour_data_graph.png" alt="Dataset Overview" style="width: 300px;"/>
+This data holds promise for a breadth of new service opportunities that improve people’s lives through deep personalization, tools to manage personal wellbeing, and services that support identity construction. However, to deliver on this promise, developers encounter many challenges due to the fragmented state of personal data today and users’ interests are scattered across a constellation of applications and services. This paper evaluates the landscape of personal data today, including stakeholders, and the process required for incorporating personal data in an application. Next, it combines this practical view with a synthesis of past research to identify key challenges in the current ecosystem of personal data. Finally, it contributes Phenom, an experimental system that we designed and implemented to address those key challenges of working with personal data.
 
-The main visual interface of ConTour is simple yet effective. It displays the items of each dataset in a column. The way items are presented is tailored to the item type. For example, bar charts are used for biological fingerprints of compounds, which consist of many numerical attributes. The relationships between items of different columns are revealed through interaction: Selecting one or multiple items in one column brings all related items of other columns to the top and highlights them. Another possibility to reveal item relationships between columns is nesting. By putting one column into an other column, the child column lists all related items for each item in the parent column. To save space, the child items of each parent item can be collapsed into summary representations.
-ConTour provides different ways to filter the data. Selection-based filters reduce the items in all columns to those that are related to the currently selected items. Attribute-based filters remove all items of a column whose attributes do not satisfy a certain filter criterion, like, for example, a value range for numerical attributes.
-To quickly find the most interesting items, the items of a column can be sorted by some attribute, or ranked according to a parametrizable enrichment score. This score conveys how specific two items of different columns are related via the items of a third column. It can be used, for example, to identify fingerprint clusters that show an enrichment in compounds that modulate a specific pathway.
-Finally, ConTour provides a number of detail views tailored to the different item types. For example, the detail view for compounds displays the chemical structure of multiple compounds. The pathway detail view shows one pathway graph with all of its contained genes and also indicates compounds that map to this pathway and associated fingerprint clusters.
-
-![ConTour Overview]({{site.baseurl}}/assets/images/projects/contour_explained.png)
 

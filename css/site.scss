@@ -193,7 +193,7 @@ $large-display: new-breakpoint(min-width 1200px $large-display-columns);
 
 .logo {
   float: right;
-  margin-right: 150px;
+  margin-right: 50px;
 
   @include media($small-display) {
     padding-top: 5px;
@@ -651,17 +651,18 @@ ul.post-list {
 	}
 	
     .post-list-title {
-      color: #F1F2F2;
+      color: $home-color;
 	  //color: lighten(#F1F2F2,0.5);
-	  background:$home-color;
+	  //background:$home-color;
       //font-family: $sans-serif-font-family;
-	  font-family: $condensed-font-family;
-      font-weight: 700;
-      font-style: normal;
+	  font-family: $title-font-family;
+      font-weight: 600;
+      font-style: light;
       display: block;
-	  font-size:1em;
-      margin-bottom: 15px;
-	  padding-left:5px;
+	  font-size:1.2em;
+      margin-bottom: 5px;
+	  //padding-left:5px;
+	  padding-top:10px;
     }
 	
 	/*.post-list-excerpt {

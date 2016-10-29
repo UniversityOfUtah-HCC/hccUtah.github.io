@@ -51,10 +51,9 @@ layout: default
     </p>
     {% endif %}
 
-    {% if page.publications.size > 0 %}
+    {% if page.github.size > 0 %}
     <h1>Software</h1>
     <p>
-      {% assign is_core_caleydo = true %}
       {% for release in site.releases %}
       {% if release.key contains page.key %}
     <ul class="release-icon-list">
@@ -100,7 +99,7 @@ layout: default
 
   <article class="project-meta">
 
-    {% if video != empty %}
+    {% if video.size > 0 %}
     <h1>Video</h1>
     {% for video in site.videos %}
     {% for video_key in page.videos %}

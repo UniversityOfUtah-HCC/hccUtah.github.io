@@ -1,20 +1,20 @@
 # Site settings
-title: Visualization Design Lab
-email: alex@sci.utah.edu
-description: "Data visualization research lab at SCI, SoC, University of Utah"
-baseurl: ""
-url: "http://www.vdl.sci.utah.edu"
+title: Human Centered Computing
+email: wiese@cs.utah.edu
+description: "Human-Centered Computing at SoC, University of Utah"
+baseurl: ""#"http://www.cs.utah.edu/~wiese/hcc"
+url: ""#"http://www.cs.utah.edu/~wiese/hcc"
 twitter_username:
-github_username: visdesignlab
+github_username: 
 youtube_username:
 facebook_page:
-license_url: https://raw.githubusercontent.com/Caleydo/caleydo/develop/LICENSE
+license_url:
 safe: false
 lsi: false
 google_analytics: "'UA-69348306-1'"
 use_analytics: true
 
-paper_content_url: http://sci.utah.edu/~vdl/papers/
+paper_content_url: http://hcc.utah.edu/papers/
 
 
 

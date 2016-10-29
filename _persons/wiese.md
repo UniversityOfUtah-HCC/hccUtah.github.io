@@ -9,7 +9,7 @@ email: wiese@cs.utah.edu
 image: /assets/images/team/wiese.jpg
 organization: University of Utah
 position: Assistant Professor
-website: http://cs.utah.edu/~wiese
+website: http://www.cs.utah.edu/~wiese
 interests: Personal Data, Sensing, Mobile Computing, Privacy
 ---
 
